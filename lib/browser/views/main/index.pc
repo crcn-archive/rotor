@@ -1,0 +1,4 @@
+<div class="rotor row">
+  {{ html: sections.editor  }}
+  {{ html: sections.preview }}
+</div>

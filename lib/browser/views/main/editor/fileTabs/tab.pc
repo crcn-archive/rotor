@@ -1,0 +1,8 @@
+<li data-bind="{{
+  onClick: setCurrentDocument(model),
+  css: {
+    selected: model.selected
+  }
+  }}">
+  {{ model.relpath }}
+</li>

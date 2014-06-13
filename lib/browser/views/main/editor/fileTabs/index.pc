@@ -1,0 +1,3 @@
+<ul class="rotor-tabs">
+  {{ html: sections.items }}
+</ul>

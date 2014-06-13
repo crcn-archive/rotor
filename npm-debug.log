@@ -1,0 +1,187 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', 'ace-browserify', '--save' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'ace-browserify', null ]
+6 verbose cache add name=undefined spec="ace-browserify" args=["ace-browserify",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ace-browserify',
+7 verbose parsed url   path: 'ace-browserify',
+7 verbose parsed url   href: 'ace-browserify' }
+8 silly lockFile 116999dc-ace-browserify ace-browserify
+9 verbose lock ace-browserify /Users/craig/.npm/116999dc-ace-browserify.lock
+10 silly lockFile 116999dc-ace-browserify ace-browserify
+11 silly lockFile 116999dc-ace-browserify ace-browserify
+12 verbose addNamed [ 'ace-browserify', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 00be9dc2-ace-browserify ace-browserify@
+15 verbose lock ace-browserify@ /Users/craig/.npm/00be9dc2-ace-browserify.lock
+16 silly addNameRange { name: 'ace-browserify', range: '*', hasData: false }
+17 verbose url raw ace-browserify
+18 verbose url resolving [ 'http://registry.npmjs.org/', './ace-browserify' ]
+19 verbose url resolved http://registry.npmjs.org/ace-browserify
+20 info trying registry request attempt 1 at 14:36:35
+21 http GET http://registry.npmjs.org/ace-browserify
+22 http 200 http://registry.npmjs.org/ace-browserify
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"1BWJ499EILQQ5S3SMHQ6DB7AW"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=30',
+23 silly registry.get     'content-length': '1195',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Fri, 13 Jun 2014 21:36:35 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1402695395.658670,VS0,VE85',
+23 silly registry.get     vary: 'Accept' } ]
+24 silly addNameRange number 2 { name: 'ace-browserify', range: '*', hasData: true }
+25 silly addNameRange versions [ 'ace-browserify', [ '1.0.0' ] ]
+26 verbose addNamed [ 'ace-browserify', '1.0.0' ]
+27 verbose addNamed [ '1.0.0', '1.0.0' ]
+28 silly lockFile 5497ef8b-ace-browserify-1-0-0 ace-browserify@1.0.0
+29 verbose lock ace-browserify@1.0.0 /Users/craig/.npm/5497ef8b-ace-browserify-1-0-0.lock
+30 silly lockFile 323723a9-wserify-ace-browserify-1-0-0-tgz http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz
+31 verbose lock http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz /Users/craig/.npm/323723a9-wserify-ace-browserify-1-0-0-tgz.lock
+32 verbose addRemoteTarball [ 'http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz',
+32 verbose addRemoteTarball   'f28f7753bfee347c8f17be68f8847321211ab58b' ]
+33 info retry fetch attempt 1 at 14:36:35
+34 verbose fetch to= /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz
+35 http GET http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz
+36 http 200 http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz
+37 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz
+38 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+39 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package /Users/craig/.npm/5939f491-395419-0-847817919915542-package.lock
+40 silly lockFile 6bf1c8b2-395419-0-847817919915542-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz
+41 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz /Users/craig/.npm/6bf1c8b2-395419-0-847817919915542-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry build.js
+46 silly gunzTarPerm extractEntry full.js
+47 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+48 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+49 silly lockFile 6bf1c8b2-395419-0-847817919915542-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz
+50 silly lockFile 6bf1c8b2-395419-0-847817919915542-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/tmp.tgz
+51 verbose tar pack [ '/Users/craig/.npm/ace-browserify/1.0.0/package.tgz',
+51 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package' ]
+52 verbose tarball /Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+53 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+54 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+55 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package /Users/craig/.npm/5939f491-395419-0-847817919915542-package.lock
+56 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+57 verbose lock tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz /Users/craig/.npm/b550c688-ace-browserify-1-0-0-package-tgz.lock
+58 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+59 silly lockFile 5939f491-395419-0-847817919915542-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-59338-WUPp5L-Z/1402695395419-0.847817919915542/package
+60 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+61 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+62 silly lockFile c0ed3f90-npm-ace-browserify-1-0-0-package /Users/craig/.npm/ace-browserify/1.0.0/package
+63 verbose lock /Users/craig/.npm/ace-browserify/1.0.0/package /Users/craig/.npm/c0ed3f90-npm-ace-browserify-1-0-0-package.lock
+64 silly lockFile c0ed3f90-npm-ace-browserify-1-0-0-package /Users/craig/.npm/ace-browserify/1.0.0/package
+65 silly lockFile c0ed3f90-npm-ace-browserify-1-0-0-package /Users/craig/.npm/ace-browserify/1.0.0/package
+66 verbose tar unpack /Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+67 silly lockFile 689215d1-npm-ace-browserify-1-0-0-package tar:///Users/craig/.npm/ace-browserify/1.0.0/package
+68 verbose lock tar:///Users/craig/.npm/ace-browserify/1.0.0/package /Users/craig/.npm/689215d1-npm-ace-browserify-1-0-0-package.lock
+69 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+70 verbose lock tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz /Users/craig/.npm/b550c688-ace-browserify-1-0-0-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry build.js
+75 silly gunzTarPerm extractEntry full.js
+76 silly lockFile 689215d1-npm-ace-browserify-1-0-0-package tar:///Users/craig/.npm/ace-browserify/1.0.0/package
+77 silly lockFile 689215d1-npm-ace-browserify-1-0-0-package tar:///Users/craig/.npm/ace-browserify/1.0.0/package
+78 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+79 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+80 verbose chmod /Users/craig/.npm/ace-browserify/1.0.0/package.tgz 644
+81 verbose chown /Users/craig/.npm/ace-browserify/1.0.0/package.tgz [ 501, 20 ]
+82 silly lockFile 323723a9-wserify-ace-browserify-1-0-0-tgz http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz
+83 silly lockFile 323723a9-wserify-ace-browserify-1-0-0-tgz http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz
+84 silly lockFile 5497ef8b-ace-browserify-1-0-0 ace-browserify@1.0.0
+85 silly lockFile 5497ef8b-ace-browserify-1-0-0 ace-browserify@1.0.0
+86 silly lockFile 00be9dc2-ace-browserify ace-browserify@
+87 silly lockFile 00be9dc2-ace-browserify ace-browserify@
+88 silly resolved [ { name: 'ace-browserify',
+88 silly resolved     version: '1.0.0',
+88 silly resolved     description: 'A wrapper around ajaxorg/ace to use it with browserify',
+88 silly resolved     main: 'ace.js',
+88 silly resolved     scripts:
+88 silly resolved      { test: 'echo "Error: no test specified" && exit 1',
+88 silly resolved        install: 'node build' },
+88 silly resolved     repository: '',
+88 silly resolved     author: { name: 'Patrik Stutz' },
+88 silly resolved     license: 'GPL',
+88 silly resolved     _id: 'ace-browserify@1.0.0',
+88 silly resolved     readme: 'ERROR: No README.md file found!',
+88 silly resolved     dist: { shasum: '35e0a8bba95dca7e1777d69ffc2969923b42c41b' },
+88 silly resolved     _from: 'ace-browserify@',
+88 silly resolved     _resolved: 'http://registry.npmjs.org/ace-browserify/-/ace-browserify-1.0.0.tgz' } ]
+89 info install ace-browserify@1.0.0 into /Users/craig/Developer/Public/rotor
+90 info installOne ace-browserify@1.0.0
+91 info /Users/craig/Developer/Public/rotor/node_modules/ace-browserify unbuild
+92 verbose tar unpack /Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+93 silly lockFile a9619e3e-otor-node-modules-ace-browserify tar:///Users/craig/Developer/Public/rotor/node_modules/ace-browserify
+94 verbose lock tar:///Users/craig/Developer/Public/rotor/node_modules/ace-browserify /Users/craig/.npm/a9619e3e-otor-node-modules-ace-browserify.lock
+95 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+96 verbose lock tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz /Users/craig/.npm/b550c688-ace-browserify-1-0-0-package-tgz.lock
+97 silly gunzTarPerm modes [ '755', '644' ]
+98 silly gunzTarPerm extractEntry package.json
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm extractEntry build.js
+101 silly gunzTarPerm extractEntry full.js
+102 silly lockFile a9619e3e-otor-node-modules-ace-browserify tar:///Users/craig/Developer/Public/rotor/node_modules/ace-browserify
+103 silly lockFile a9619e3e-otor-node-modules-ace-browserify tar:///Users/craig/Developer/Public/rotor/node_modules/ace-browserify
+104 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+105 silly lockFile b550c688-ace-browserify-1-0-0-package-tgz tar:///Users/craig/.npm/ace-browserify/1.0.0/package.tgz
+106 info preinstall ace-browserify@1.0.0
+107 verbose readDependencies using package.json deps
+108 verbose readDependencies using package.json deps
+109 silly resolved []
+110 verbose about to build /Users/craig/Developer/Public/rotor/node_modules/ace-browserify
+111 info build /Users/craig/Developer/Public/rotor/node_modules/ace-browserify
+112 verbose linkStuff [ false,
+112 verbose linkStuff   false,
+112 verbose linkStuff   false,
+112 verbose linkStuff   '/Users/craig/Developer/Public/rotor/node_modules' ]
+113 info linkStuff ace-browserify@1.0.0
+114 verbose linkBins ace-browserify@1.0.0
+115 verbose linkMans ace-browserify@1.0.0
+116 verbose rebuildBundles ace-browserify@1.0.0
+117 info install ace-browserify@1.0.0
+118 verbose unsafe-perm in lifecycle true
+119 info ace-browserify@1.0.0 Failed to exec install script
+120 info /Users/craig/Developer/Public/rotor/node_modules/ace-browserify unbuild
+121 info preuninstall ace-browserify@1.0.0
+122 info uninstall ace-browserify@1.0.0
+123 verbose true,/Users/craig/Developer/Public/rotor/node_modules,/Users/craig/Developer/Public/rotor/node_modules unbuild ace-browserify@1.0.0
+124 info postuninstall ace-browserify@1.0.0
+125 error ace-browserify@1.0.0 install: `node build`
+125 error Exit status 8
+126 error Failed at the ace-browserify@1.0.0 install script.
+126 error This is most likely a problem with the ace-browserify package,
+126 error not with npm itself.
+126 error Tell the author that this fails on your system:
+126 error     node build
+126 error You can get their info via:
+126 error     npm owner ls ace-browserify
+126 error There is likely additional logging output above.
+127 error System Darwin 13.2.0
+128 error command "node" "/usr/local/bin/npm" "i" "ace-browserify" "--save"
+129 error cwd /Users/craig/Developer/Public/rotor
+130 error node -v v0.10.26
+131 error npm -v 1.4.3
+132 error code ELIFECYCLE
+133 verbose exit [ 1, true ]

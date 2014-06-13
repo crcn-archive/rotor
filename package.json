@@ -1,0 +1,40 @@
+{
+  "name": "rotor",
+  "version": "0.0.1",
+  "description": "rotor =====",
+  "main": "./lib/node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "make browser"
+  },
+  "browser": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crcn/rotor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crcn/rotor/issues"
+  },
+  "homepage": "https://github.com/crcn/rotor",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "mojo-models": "0.0.16",
+    "mojo-application": "0.0.8",
+    "mojo-views": "0.0.12",
+    "async": "^0.9.0",
+    "glob": "^4.0.2",
+    "outcome": "0.0.18",
+    "sift": "0.0.17",
+    "module-deps": "^2.1.2",
+    "jsonstream": "0.0.1",
+    "through": "^2.3.4",
+    "lodash": "^2.4.1",
+    "browser-builtins": "^3.1.0",
+    "bindable": "^0.5.37",
+    "mojo-paperclip": "^0.4.4",
+    "brace": "^0.2.1",
+    "paperclip": "^0.3.128"
+  }
+}
