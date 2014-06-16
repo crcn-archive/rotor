@@ -11,6 +11,8 @@ module.exports = pc.BaseBlockBinding.extend({
   },
   _onChange: function (options) {
 
+    if (!options) options = {};
+
     if (options.__isBindableCollection) {
       options = { files: options };
     }
