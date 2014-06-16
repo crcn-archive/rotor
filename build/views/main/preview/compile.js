@@ -49,7 +49,18 @@ module.exports = function (files, application) {
   }
 
 
-  buffer = ["global=window;return (" + loader.toString() + ").call(null, {"+dbuffer.join(",")+"})"]
+  var header = 
+  "var global = window; " + 
+  "var process = {" +
+    "nextTick: function (next) {" +
+      "setTimeout(next, 0); " +
+    "}," + 
+    "browser: true" +
+  "}";
+
+  console.log(header);
+
+  buffer = [header, ";return (" + loader.toString() + ").call(null, {"+dbuffer.join(",")+"})"]
 
 
 
