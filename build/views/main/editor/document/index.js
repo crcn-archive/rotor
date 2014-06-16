@@ -54,6 +54,11 @@ module.exports = views.Base.extend({
     var div = this.application.nodeFactory.createElement("div");
     div.setAttribute("class", "rotor-edit-document");
     this.editor = ace.edit(div);
+    this.editor.setOptions({
+      maxLines: 200,
+      minLine: 10
+    });
+    console.log("EDIT")
     this.editor.on("input", _.bind(this._onSrcChange, this));
     this.section.append(div);
   },
