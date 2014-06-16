@@ -1,0 +1,235 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+12 verbose folder .
+13 info prepublish rotor@0.0.5
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+16 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+17 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz /Users/craig/.npm/aeb030bf-99101-0-6472089732997119-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+21 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+22 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+23 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+24 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package /Users/craig/.npm/359cf220-99101-0-6472089732997119-package.lock
+25 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+26 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz /Users/craig/.npm/aeb030bf-99101-0-6472089732997119-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry .js
+32 silly gunzTarPerm extractEntry browser-build/index.js
+33 silly gunzTarPerm extractEntry browser-build/rotor.js
+34 silly gunzTarPerm extractEntry browser-build/views/main/index.js
+35 silly gunzTarPerm extractEntry browser-build/views/main/editor/index.js
+36 silly gunzTarPerm extractEntry browser-build/views/main/editor/document/index.js
+37 silly gunzTarPerm extractEntry browser-build/views/main/editor/fileTabs/index.js
+38 silly gunzTarPerm extractEntry browser-build/views/main/preview/index.js
+39 silly gunzTarPerm extractEntry build/index.js
+40 silly gunzTarPerm extractEntry build/rotor.js
+41 silly gunzTarPerm extractEntry build/template/example.js
+42 silly gunzTarPerm extractEntry build/views/main/index.js
+43 silly gunzTarPerm extractEntry build/views/main/index.pc.js
+44 silly gunzTarPerm extractEntry build/views/main/editor/index.js
+45 silly gunzTarPerm extractEntry build/views/main/editor/index.pc.js
+46 silly gunzTarPerm extractEntry build/views/main/editor/document/index.js
+47 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/index.js
+48 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/index.pc.js
+49 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/tab.pc.js
+50 silly gunzTarPerm extractEntry build/views/main/preview/compile.js
+51 silly gunzTarPerm extractEntry build/views/main/preview/index.js
+52 silly gunzTarPerm extractEntry build/views/main/preview/index.pc.js
+53 silly gunzTarPerm extractEntry lib/browser/index.js
+54 silly gunzTarPerm extractEntry lib/browser/rotor.js
+55 silly gunzTarPerm extractEntry lib/browser/template/example.js
+56 silly gunzTarPerm extractEntry lib/browser/views/main/index.js
+57 silly gunzTarPerm extractEntry lib/browser/views/main/editor/index.js
+58 silly gunzTarPerm extractEntry lib/browser/views/main/editor/document/index.js
+59 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/index.js
+60 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/index.pc
+61 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/tab.pc
+62 silly gunzTarPerm extractEntry lib/browser/views/main/editor/index.pc
+63 silly gunzTarPerm extractEntry lib/browser/views/main/index.pc
+64 silly gunzTarPerm extractEntry lib/browser/views/main/preview/compile.js
+65 silly gunzTarPerm extractEntry lib/browser/views/main/preview/index.js
+66 silly gunzTarPerm extractEntry lib/browser/views/main/preview/index.pc
+67 silly gunzTarPerm extractEntry lib/node/index.js
+68 silly gunzTarPerm extractEntry makefile
+69 silly gunzTarPerm extractEntry test/node/build-test.js
+70 silly gunzTarPerm extractEntry test/node/fixtures/test1/index.js
+71 silly gunzTarPerm extractEntry test/node/fixtures/test2/index.js
+72 silly gunzTarPerm extractEntry test/node/fixtures/test2/math.js
+73 silly gunzTarPerm extractEntry test/node/fixtures/test3/index.js
+74 silly gunzTarPerm extractEntry test/node/fixtures/test4/index.js
+75 silly gunzTarPerm extractEntry test/node/fixtures/test4/index.pc
+76 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+77 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+78 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+79 silly lockFile aeb030bf-99101-0-6472089732997119-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/tmp.tgz
+80 verbose tar pack [ '/Users/craig/.npm/rotor/0.0.5/package.tgz',
+80 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package' ]
+81 verbose tarball /Users/craig/.npm/rotor/0.0.5/package.tgz
+82 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+83 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+84 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package /Users/craig/.npm/359cf220-99101-0-6472089732997119-package.lock
+85 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+86 verbose lock tar:///Users/craig/.npm/rotor/0.0.5/package.tgz /Users/craig/.npm/474492f1-raig-npm-rotor-0-0-5-package-tgz.lock
+87 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+88 silly lockFile 359cf220-99101-0-6472089732997119-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-68533-XObqkTDA/1402947399101-0.6472089732997119/package
+89 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+90 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+91 silly lockFile 3e686e1a-rs-craig-npm-rotor-0-0-5-package /Users/craig/.npm/rotor/0.0.5/package
+92 verbose lock /Users/craig/.npm/rotor/0.0.5/package /Users/craig/.npm/3e686e1a-rs-craig-npm-rotor-0-0-5-package.lock
+93 silly lockFile 3e686e1a-rs-craig-npm-rotor-0-0-5-package /Users/craig/.npm/rotor/0.0.5/package
+94 silly lockFile 3e686e1a-rs-craig-npm-rotor-0-0-5-package /Users/craig/.npm/rotor/0.0.5/package
+95 verbose tar unpack /Users/craig/.npm/rotor/0.0.5/package.tgz
+96 silly lockFile cc59daa3-rs-craig-npm-rotor-0-0-5-package tar:///Users/craig/.npm/rotor/0.0.5/package
+97 verbose lock tar:///Users/craig/.npm/rotor/0.0.5/package /Users/craig/.npm/cc59daa3-rs-craig-npm-rotor-0-0-5-package.lock
+98 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+99 verbose lock tar:///Users/craig/.npm/rotor/0.0.5/package.tgz /Users/craig/.npm/474492f1-raig-npm-rotor-0-0-5-package-tgz.lock
+100 silly gunzTarPerm modes [ '755', '644' ]
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry .npmignore
+103 silly gunzTarPerm extractEntry README.md
+104 silly gunzTarPerm extractEntry .js
+105 silly gunzTarPerm extractEntry browser-build/index.js
+106 silly gunzTarPerm extractEntry browser-build/rotor.js
+107 silly gunzTarPerm extractEntry browser-build/views/main/index.js
+108 silly gunzTarPerm extractEntry browser-build/views/main/editor/index.js
+109 silly gunzTarPerm extractEntry browser-build/views/main/editor/document/index.js
+110 silly gunzTarPerm extractEntry browser-build/views/main/editor/fileTabs/index.js
+111 silly gunzTarPerm extractEntry browser-build/views/main/preview/index.js
+112 silly gunzTarPerm extractEntry build/index.js
+113 silly gunzTarPerm extractEntry build/rotor.js
+114 silly gunzTarPerm extractEntry build/template/example.js
+115 silly gunzTarPerm extractEntry build/views/main/index.js
+116 silly gunzTarPerm extractEntry build/views/main/index.pc.js
+117 silly gunzTarPerm extractEntry build/views/main/editor/index.js
+118 silly gunzTarPerm extractEntry build/views/main/editor/index.pc.js
+119 silly gunzTarPerm extractEntry build/views/main/editor/document/index.js
+120 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/index.js
+121 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/index.pc.js
+122 silly gunzTarPerm extractEntry build/views/main/editor/fileTabs/tab.pc.js
+123 silly gunzTarPerm extractEntry build/views/main/preview/compile.js
+124 silly gunzTarPerm extractEntry build/views/main/preview/index.js
+125 silly gunzTarPerm extractEntry build/views/main/preview/index.pc.js
+126 silly gunzTarPerm extractEntry lib/browser/index.js
+127 silly gunzTarPerm extractEntry lib/browser/rotor.js
+128 silly gunzTarPerm extractEntry lib/browser/template/example.js
+129 silly gunzTarPerm extractEntry lib/browser/views/main/index.js
+130 silly gunzTarPerm extractEntry lib/browser/views/main/editor/index.js
+131 silly gunzTarPerm extractEntry lib/browser/views/main/editor/document/index.js
+132 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/index.js
+133 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/index.pc
+134 silly gunzTarPerm extractEntry lib/browser/views/main/editor/fileTabs/tab.pc
+135 silly gunzTarPerm extractEntry lib/browser/views/main/editor/index.pc
+136 silly gunzTarPerm extractEntry lib/browser/views/main/index.pc
+137 silly gunzTarPerm extractEntry lib/browser/views/main/preview/compile.js
+138 silly gunzTarPerm extractEntry lib/browser/views/main/preview/index.js
+139 silly gunzTarPerm extractEntry lib/browser/views/main/preview/index.pc
+140 silly gunzTarPerm extractEntry lib/node/index.js
+141 silly gunzTarPerm extractEntry makefile
+142 silly gunzTarPerm extractEntry test/node/build-test.js
+143 silly gunzTarPerm extractEntry test/node/fixtures/test1/index.js
+144 silly gunzTarPerm extractEntry test/node/fixtures/test2/index.js
+145 silly gunzTarPerm extractEntry test/node/fixtures/test2/math.js
+146 silly gunzTarPerm extractEntry test/node/fixtures/test3/index.js
+147 silly gunzTarPerm extractEntry test/node/fixtures/test4/index.js
+148 silly gunzTarPerm extractEntry test/node/fixtures/test4/index.pc
+149 silly lockFile cc59daa3-rs-craig-npm-rotor-0-0-5-package tar:///Users/craig/.npm/rotor/0.0.5/package
+150 silly lockFile cc59daa3-rs-craig-npm-rotor-0-0-5-package tar:///Users/craig/.npm/rotor/0.0.5/package
+151 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+152 silly lockFile 474492f1-raig-npm-rotor-0-0-5-package-tgz tar:///Users/craig/.npm/rotor/0.0.5/package.tgz
+153 verbose chmod /Users/craig/.npm/rotor/0.0.5/package.tgz 644
+154 verbose chown /Users/craig/.npm/rotor/0.0.5/package.tgz [ 501, 20 ]
+155 silly lockFile 3a52ce78- .
+156 silly lockFile 3a52ce78- .
+157 silly publish { name: 'rotor',
+157 silly publish   version: '0.0.5',
+157 silly publish   description: 'rotor =====',
+157 silly publish   main: './lib/node/index.js',
+157 silly publish   scripts:
+157 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+157 silly publish      postinstall: 'make browser' },
+157 silly publish   browser: './build/index.js',
+157 silly publish   repository: { type: 'git', url: 'https://github.com/crcn/rotor.git' },
+157 silly publish   author: '',
+157 silly publish   license: 'ISC',
+157 silly publish   bugs: { url: 'https://github.com/crcn/rotor/issues' },
+157 silly publish   homepage: 'https://github.com/crcn/rotor',
+157 silly publish   dependencies:
+157 silly publish    { commander: '^2.2.0',
+157 silly publish      'mojo-models': '0.0.16',
+157 silly publish      'mojo-application': '0.0.8',
+157 silly publish      'mojo-views': '0.0.12',
+157 silly publish      async: '^0.9.0',
+157 silly publish      glob: '^4.0.2',
+157 silly publish      outcome: '0.0.18',
+157 silly publish      sift: '0.0.17',
+157 silly publish      'module-deps': '^2.1.2',
+157 silly publish      jsonstream: '0.0.1',
+157 silly publish      through: '^2.3.4',
+157 silly publish      lodash: '^2.4.1',
+157 silly publish      'browser-builtins': '^3.1.0',
+157 silly publish      bindable: '^0.5.37',
+157 silly publish      'mojo-paperclip': '^0.4.4',
+157 silly publish      brace: '^0.2.1',
+157 silly publish      paperclip: '0.3.x',
+157 silly publish      'browser-resolve': '^1.3.0' },
+157 silly publish   readme: 'Rotor is a code mirroring library built for mojo.js\n\n```javascript\nvar Application = require("mojo-application");\nvar app = new Application();\napp.use(require("rotor"));\n```\n\n```html\n{{\n    rotor: {\n      files: liveFiles\n    }\n}}\n```\n',
+157 silly publish   readmeFilename: 'README.md',
+157 silly publish   _id: 'rotor@0.0.5',
+157 silly publish   dist: { shasum: '0cf4363bb53b3e481f9abba5992ca80b74121ac2' },
+157 silly publish   _from: '.' }
+158 verbose url raw rotor
+159 verbose url resolving [ 'http://registry.npmjs.org/', './rotor' ]
+160 verbose url resolved http://registry.npmjs.org/rotor
+161 info trying registry request attempt 1 at 12:36:39
+162 http PUT http://registry.npmjs.org/rotor
+163 http 403 http://registry.npmjs.org/rotor
+164 error publish Failed PUT 403
+165 error Error: forbidden cannot modify pre-existing version: 0.0.5
+165 error old={"name":"rotor","version":"0.0.5","description":"rotor =====","main":"./lib/node/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","postinstall":"make browser"},"browser":"./build/index.js","repository":{"type":"git","url":"https://github.com/crcn/rotor.git"},"author":"","license":"ISC","bugs":{"url":"https://github.com/crcn/rotor/issues"},"homepage":"https://github.com/crcn/rotor","dependencies":{"commander":"^2.2.0","mojo-models":"0.0.16","mojo-application":"0.0.8","mojo-views":"0.0.12","async":"^0.9.0","glob":"^4.0.2","outcome":"0.0.18","sift":"0.0.17","module-deps":"^2.1.2","jsonstream":"0.0.1","through":"^2.3.4","lodash":"^2.4.1","browser-builtins":"^3.1.0","bindable":"^0.5.37","mojo-paperclip":"^0.4.4","brace":"^0.2.1","paperclip":"0.3.x","browser-resolve":"^1.3.0"},"_id":"rotor@0.0.5","dist":{"shasum":"0cf4363bb53b3e481f9abba5992ca80b74121ac2","tarball":"http://registry.npmjs.org/rotor/-/rotor-0.0.5.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"architectd","email":"craig.j.condon@gmail.com"},"maintainers":[{"name":"architectd","email":"craig.j.condon@gmail.com"}]}
+165 error new={"name":"rotor","version":"0.0.5","description":"rotor =====","main":"./lib/node/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","postinstall":"make browser"},"browser":"./build/index.js","repository":{"type":"git","url":"https://github.com/crcn/rotor.git"},"author":"","license":"ISC","bugs":{"url":"https://github.com/crcn/rotor/issues"},"homepage":"https://github.com/crcn/rotor","dependencies":{"commander":"^2.2.0","mojo-models":"0.0.16","mojo-application":"0.0.8","mojo-views":"0.0.12","async":"^0.9.0","glob":"^4.0.2","outcome":"0.0.18","sift":"0.0.17","module-deps":"^2.1.2","jsonstream":"0.0.1","through":"^2.3.4","lodash":"^2.4.1","browser-builtins":"^3.1.0","bindable":"^0.5.37","mojo-paperclip":"^0.4.4","brace":"^0.2.1","paperclip":"0.3.x","browser-resolve":"^1.3.0"},"readme":"Rotor is a code mirroring library built for mojo.js\u000a\u000a```javascript\u000avar Application = require(\"mojo-application\");\u000avar app = new Application();\u000aapp.use(require(\"rotor\"));\u000a```\u000a\u000a```html\u000a{{\u000a    rotor: {\u000a      files: liveFiles\u000a    }\u000a}}\u000a```\u000a","readmeFilename":"README.md","_id":"rotor@0.0.5","dist":{"shasum":"0cf4363bb53b3e481f9abba5992ca80b74121ac2","tarball":"http://registry.npmjs.org/rotor/-/rotor-0.0.5.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"architectd","email":"craig.j.condon@gmail.com"},"maintainers":[{"name":"architectd","email":"craig.j.condon@gmail.com"}]}: rotor
+165 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+165 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+165 error     at Request.EventEmitter.emit (events.js:98:17)
+165 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+165 error     at Request.EventEmitter.emit (events.js:117:20)
+165 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+165 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+165 error     at _stream_readable.js:920:16
+165 error     at process._tickCallback (node.js:415:13)
+166 error If you need help, you may report this *entire* log,
+166 error including the npm and node versions, at:
+166 error     <http://github.com/npm/npm/issues>
+167 error System Darwin 13.2.0
+168 error command "node" "/usr/local/bin/npm" "publish"
+169 error cwd /Users/craig/Developer/Public/rotor
+170 error node -v v0.10.26
+171 error npm -v 1.4.3
+172 verbose exit [ 1, true ]
