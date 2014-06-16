@@ -14,9 +14,14 @@ module.exports = views.Base.extend({
   bindings: {
     "files.@each.source": function () {
       if (!this.get("files")) return;
-      this.set("entry", compile(this.get("files").map(function (file) {
-        return file.context();
-      }), this.application));
+
+      try {
+        this.set("entry", compile(this.get("files").map(function (file) {
+          return file.context();
+       }), this.application));
+      } catch (e) {
+        console.warn(e);
+      }
     },
     "entry": function (entry) {
       var el = this.application.nodeFactory.createElement("div");
