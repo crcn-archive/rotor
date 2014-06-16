@@ -58,7 +58,6 @@ module.exports = function (files, application) {
     "browser: true" +
   "}";
 
-  console.log(header);
 
   buffer = [header, ";return (" + loader.toString() + ").call(null, {"+dbuffer.join(",")+"})"]
 
