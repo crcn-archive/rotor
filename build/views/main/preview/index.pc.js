@@ -1,6 +1,6 @@
 module.exports = function(fragment, block, element, text, textBlock, parser, modifiers) {
     return element("div", {
-        "class": "col-xs-6"
+        "class": "col-xs-5"
     }, [ element("div", {
         "class": "rotor-preview"
     }, [ block({
