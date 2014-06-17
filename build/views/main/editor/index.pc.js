@@ -4,13 +4,6 @@ module.exports = function(fragment, block, element, text, textBlock, parser, mod
     }, [ block({
         html: {
             run: function() {
-                return this.get([ "sections", "tabs" ]);
-            },
-            refs: [ [ "sections", "tabs" ] ]
-        }
-    }, void 0), text(" "), block({
-        html: {
-            run: function() {
                 return this.get([ "sections", "document" ]);
             },
             refs: [ [ "sections", "document" ] ]

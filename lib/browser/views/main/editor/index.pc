@@ -1,4 +1,3 @@
 <div class="col-xs-7">
-  {{ html: sections.tabs }}
   {{ html: sections.document }}
 </div>

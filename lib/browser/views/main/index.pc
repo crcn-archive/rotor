@@ -1,4 +1,12 @@
-<div class="rotor row">
-  {{ html: sections.editor  }}
-  {{ html: sections.preview }}
+
+<div class="rotor">
+  <div class="row">
+    <div class="col-xs-7">
+      {{ html: sections.tabs    }}
+    </div>
+  </div>
+  <div class="row">
+    {{ html: sections.editor  }}
+    {{ html: sections.preview }}
+  </div>
 </div>

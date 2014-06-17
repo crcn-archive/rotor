@@ -11,18 +11,6 @@ module.exports = views.Base.extend({
    */
 
   sections: {
-    tabs: require("./fileTabs"),
     document: require("./document")
-  },
-
-  /**
-   */
-
-  setCurrentDocument: function (doc) {
-    if (this.document) {
-      this.document.set("selected", false);
-    }
-    this.set("document", doc);
-    doc.set("selected", true);
   }
 });

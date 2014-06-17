@@ -1,6 +1,6 @@
 {
   "name": "rotor",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "rotor =====",
   "main": "./lib/node/index.js",
   "scripts": {
